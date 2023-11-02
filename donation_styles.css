@@ -23,14 +23,11 @@ body {
   opacity: 1; 
   background-size:cover; 
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   padding: 7rem 10rem 7rem 10rem;
-  /* padding-top: 7rem;
-  padding-left: 20rem;
-  padding-right: 30rem;
-  padding-bottom: 7rem; */
-  height: 100vh;
-  
+  height: auto;
+
 }
 
 .container{
@@ -41,6 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: auto;
 }
 
 
@@ -156,5 +154,88 @@ footer{
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
+
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  body{
+    width: fit-content;
+  }
+  .main {
+    padding: 4rem 8rem;
+    flex-direction: column;
+    width: fit-content;
+  }
+  .container{
+    width:fit-content;
+  }
+  .field {
+    padding: 0.5rem;
+  }
+  .text {
+    font-size: 24px;
+  }
+  .button button {
+    font-size: 18px;
+  }
+  form{
+    width: fit-content;
+  }
+}
+
+@media (max-width: 768px)  {
+  .quote{
+    font: normal normal normal 32px/46px Flood Std;
+  }
+  body{
+    width: fit-content;
+  }
+  .main {
+    padding: 0.5rem;
+    flex-direction: column;
+    width: fit-content;
+    width: 30rem;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+  header .main-title{
+    align-items: center;
+    font: normal normal normal 32px/46px Flood Std;
+    opacity: 1;
+  }
+  .container{
+    width: 312px;
+    height: 816px;
+  }
+  .container.title{
+    font: normal normal bold 22px/28px Helvetica;
+  }
+  .field {
+    width: fit-content;
+  }
+  .field .label{
+    font: normal normal normal 11px/13px Helvetica;
+  }
+  .field input{
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .field .flex{
+    flex-direction: column;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .button button {
+    font-size: 16px;
+  }
+ 
+  form{
+    width: fit-content;
+  }
+  /* .flex{
+    display: grid;
+    grid-template-rows: 1rf 1rf;
+    grid-template-columns: 1rf 1rf;
+  } */
 
 }
