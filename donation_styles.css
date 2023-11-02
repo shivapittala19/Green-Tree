@@ -1,0 +1,96 @@
+body {
+  font: Helvetica;
+}
+
+.main-title{
+  text-align: center;
+  font: normal normal bold 28px/36px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+
+.title{
+  text-align: left;
+  font: normal normal bold 28px/36px Helvetica;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.main {
+  background: transparent url('./donation_images/component.png') 0% 0% no-repeat padding-box;
+  opacity: 1; 
+  background-size:cover; 
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem;
+}
+
+.container{
+  margin-top: 20px;
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  padding: 1rem;
+
+}
+
+.field label {
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.field input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  padding: 5px;
+  margin-left: 10px;
+  text-align: left;
+  font: normal normal 300 20px/32px Helvetica;
+  letter-spacing: -0.4px;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.button {
+  width: 100%;
+  margin-top: 10px;
+  text-align: end;
+  margin-top: 50px;
+}
+
+.button button {
+  border: none;
+  border-radius: 20px;
+  background-color: #c1f7d5;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
