@@ -47,7 +47,7 @@
 }
 
 .background-image {
-    background-image: url('./images/annie-spratt-135307-unsplash.png');
+    background-image: url('./home_images/annie-spratt-135307-unsplash.png');
     background-size: cover;
     width: 100%;
     height: 672px;
@@ -221,7 +221,7 @@ p{
 
 
 div.background-image-2 {
-    background: url('./images/Did\ you\ know\ background.png') 0% 0% no-repeat padding-box;;
+    background: url('./home_images/didyouknow.png') 0% 0% no-repeat padding-box;;
     background-size: cover;
     height: 100vh;
     padding: 4rem;
